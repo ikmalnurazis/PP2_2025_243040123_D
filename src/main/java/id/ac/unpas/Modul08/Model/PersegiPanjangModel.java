@@ -1,4 +1,4 @@
-package Modul08.Model;
+package id.ac.unpas.Modul08.Model;
 
 public class PersegiPanjangModel {
     private double panjang;

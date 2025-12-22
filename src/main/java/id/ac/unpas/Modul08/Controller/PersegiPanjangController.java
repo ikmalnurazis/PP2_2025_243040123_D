@@ -1,13 +1,13 @@
-package Modul08.Controller;
+package id.ac.unpas.Modul08.Controller;
 
-import Modul08.Model.PersegiPanjangModel;
-import Modul08.View.PersegiPanjangView;
+import id.ac.unpas.Modul08.Model.PersegiPanjangModel;
+import id.ac.unpas.Modul08.View.PersegiPanjangView;
 
 public class PersegiPanjangController {
 
     private PersegiPanjangView view;
 
-    public PersegiPanjangController(PersegiPanjangView view) {
+    public PersegiPanjangController(id.ac.unpas.Modul08.View.PersegiPanjangView View) {
         this.view = view;
 
         view.btnHitung.addActionListener(e -> hitung());

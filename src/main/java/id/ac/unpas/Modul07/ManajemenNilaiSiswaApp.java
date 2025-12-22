@@ -1,4 +1,4 @@
-package Modul07;
+package id.ac.unpas.Modul07;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

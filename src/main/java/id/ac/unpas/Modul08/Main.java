@@ -1,11 +1,11 @@
-package Modul08;
+package id.ac.unpas.Modul08;
 
-import Modul08.View.PersegiPanjangView;
-import Modul08.Controller.PersegiPanjangController;
+import id.ac.unpas.Modul08.View.PersegiPanjangView;
+import id.ac.unpas.Modul08.Controller.PersegiPanjangController;
 
 public class Main {
     public static void main(String[] args) {
-        PersegiPanjangView view = new PersegiPanjangView();
-        new PersegiPanjangController(view);
+        PersegiPanjangView View = new PersegiPanjangView();
+        new PersegiPanjangController(View);
     }
 }
